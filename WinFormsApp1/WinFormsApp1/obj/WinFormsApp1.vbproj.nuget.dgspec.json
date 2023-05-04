@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\WinFormsApp1\\WinFormsApp1.vbproj": {}
+    "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\Getting-Real\\Getting Real.csproj": {
+    "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\Getting-Real\\Getting Real.csproj",
+        "projectUniqueName": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj",
         "projectName": "Getting Real",
-        "projectPath": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\Getting-Real\\Getting Real.csproj",
-        "packagesPath": "C:\\Users\\elvir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\Getting-Real\\obj\\",
+        "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj",
+        "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\elvir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\WinFormsApp1\\WinFormsApp1.vbproj": {
+    "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\WinFormsApp1\\WinFormsApp1.vbproj",
+        "projectUniqueName": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\WinFormsApp1\\WinFormsApp1.vbproj",
-        "packagesPath": "C:\\Users\\elvir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+        "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\WinFormsApp1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\elvir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,15 +83,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\Getting-Real\\Getting Real.csproj": {
-                "projectPath": "C:\\Users\\elvir\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Skrivebord\\KLON\\Getting-Real\\Getting Real.csproj"
+              "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj": {
+                "projectPath": "C:\\Users\\msn\\OneDrive\\Skrivebord\\Getting Real\\Getting-real\\Getting-Real\\Getting Real.csproj"
               }
             }
           }
@@ -133,7 +123,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
