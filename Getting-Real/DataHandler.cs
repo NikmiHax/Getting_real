@@ -1,140 +1,112 @@
-﻿using Microsoft.Office.Interop.Excel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel;
+using System.Globalization;
+using System.Threading.Tasks.Sources;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace Getting_Real
 {
     public class DataHandler
     {
-        //FileStream fileStream = new FileStream("C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Getting Real\\DelAfRAP-000478simplificeretA(134).csv", FileMode.Open);
-        //StreamReader streamReader = new StreamReader(fileStream);
+        //public void LoadList()
+        //{
+        //    FileStream fileStream = new FileStream("C:\\Users\\Ervin\\Documents\\side projects\\Getting Real master\\Getting-Real-master\\DelAfRAP-000478simplificeretA(134).csv", FileMode.Open);
+        //    StreamReader streamReader = new StreamReader(fileStream);
 
-        //string line;
+        //    string line;
         //    while ((line = streamReader.ReadLine()) != null)
-        //{
-        //    Console.WriteLine(line);
-        //}
-        //streamReader.Close();
-        //fileStream.Close(); 
-
-        /*
-        public void LoadList()
-        {
-            FileStream fileStream = new FileStream("C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Getting Real\\DelAfRAP-000478simplificeretA(134).xlsx", FileMode.Open);
-            StreamReader streamReader = new StreamReader(fileStream);
-
-            string line;
-            while ((line = streamReader.ReadLine()) != null)
-            {
-                Console.WriteLine(line);
-            }
-            streamReader.Close();
-            fileStream.Close();
-        }
-
-        DataHandler handler = new DataHandler();
-
-        handler.LoadList1();
-        */
-
-        /*
-
-        public void LoadList1()
-        {
-            using (StreamReader sr = new StreamReader(@"C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\DelAfRAP-000478simplificeretA(134).csv"))
-            {
-                string line;
-                string[] columns = null;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    columns = line.Split(';');
-                    //now columns array has a ll data of column in a row!
-                    //like:
-                    string col1 = columns[0]; //and so on..
-                    string col2 = columns[1];
-
-                    Console.WriteLine(col1 + ": " + col2);
-                }
-            }
-        
-        }
-        */
-
-        //public void readExcel()
-        //{
-        //    string filePath = "C:\\Users\\Ervin\\Documents\\side projects\\Getting Real master\\Getting-Real-master\\DelAfRAP-000478simplificeretA(134).xlsx";
-        //    Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
-        //    Workbook wb;
-        //    Worksheet ws;
-
-        //    wb = excel.Workbooks.Open(filePath);
-        //    ws = wb.Worksheets[1];
-
-        //    Microsoft.Office.Interop.Excel.Range cell = ws.Range["C1:C800"];
-
-        //    foreach (var CellValue in cell.Value)
         //    {
-        //        Console.WriteLine(CellValue);
+        //        Console.WriteLine(line);
+        //    }
+        //    streamReader.Close();
+        //    fileStream.Close();
+        //}
+
+        //public void LoadList1()
+        //{
+        //    using (StreamReader sr = new StreamReader(@"C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\DelAfRAP-000478simplificeretA(134).csv"))
+        //    {
+        //        string line;
+        //        string[] columns = null;
+        //        while ((line = sr.ReadLine()) != null)
+        //        {
+        //            columns = line.Split(';');
+        //            //now columns array has a ll data of column in a row!
+        //            //like:
+        //            string col1 = columns[0]; //and so on..
+        //            string col2 = columns[1];
+        //            string col3 = columns[2];
+        //            string col4 = columns[3];
+
+        //            Console.WriteLine(col3);
+
+        //        }
         //    }
         //}
 
-        public void readExcel()
-
-        {   // Angiv stien til Excel-filen, du vil læse
-            string filePath =
-                "C:\\Users\\45402\\OneDrive - UCL Erhvervsakademi og Professionshøjskole\\Getting Real\\DelAfRAP-000478simplificeretA.xlsx";
-
-            // Opret en ny instans af Excel-applikationen
+        public List<Machine> readExcel()
+        {
+            string filePath = "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\DelAfRAP-000478simplificeretA(134)1.xlsx";
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
-
-            // Erklær variabler til at holde arbejdsbogen og regnearket
             Workbook wb;
             Worksheet ws;
 
-            // Åbn Excel-filen placeret på den angivne filsti
             wb = excel.Workbooks.Open(filePath);
-
-            // Vælg det første regneark (indeks 1) i arbejdsbogen
             ws = wb.Worksheets[1];
 
-            // Opret et Range-objekt, der repræsenterer celleområdet fra C1 til C800 i det valgte regneark
-            Microsoft.Office.Interop.Excel.Range cell = ws.Range["A1:J800"];
+            Microsoft.Office.Interop.Excel.Range intervalRange = ws.Range["A2:A888"];
+            Microsoft.Office.Interop.Excel.Range weekMonthYearRange = ws.Range["B2:B888"];
+            Microsoft.Office.Interop.Excel.Range functionLocationRange = ws.Range["C2:C888"];
+            Microsoft.Office.Interop.Excel.Range machineNameRange = ws.Range["D2:D888"];
+            Microsoft.Office.Interop.Excel.Range coordinatesRange = ws.Range["E2:E888"];
+            Microsoft.Office.Interop.Excel.Range lubricationPointRange = ws.Range["F2:F888"];
+            Microsoft.Office.Interop.Excel.Range lubricationOilTypeRange = ws.Range["G2:G888"];
+            Microsoft.Office.Interop.Excel.Range greaseTypeRange = ws.Range["H2:H888"];
+            Microsoft.Office.Interop.Excel.Range volumeLiterRange = ws.Range["I2:I888"];
+            Microsoft.Office.Interop.Excel.Range volumeGramsRange = ws.Range["J2:J888"];
 
-            //// Iterer gennem værdierne i celleområdet
-            //foreach (var CellValue in cell.Value)
+            List<Machine> machines = new List<Machine>();
 
-            //{
-            //    if (CellValue != null && CellValue.ToString() == "2")
-            //        Console.WriteLine(CellValue);
-            //}
-
-            foreach (Microsoft.Office.Interop.Excel.Range row in cell.Rows)
+            for (int i = 1; i <= intervalRange.Count; i++)
             {
-                // Get the value of the first cell in the row
-                var firstCellValue = row.Cells[1].Value?.ToString() ?? "";
+                string interval = intervalRange.Cells[i, 1].Value.ToString();
+                string weekMonthYear = weekMonthYearRange.Cells[i, 1].Value.ToString();
+                string functionLocation = functionLocationRange.Cells[i, 1].Value.ToString();
+                string machineName = machineNameRange.Cells[i, 1].Value.ToString();
+                string coordinates = coordinatesRange.Cells[i, 1].Value.ToString();
+                string lubricationPoint = lubricationPointRange.Cells[i, 1].Value.ToString();
+                string lubricationOilType = lubricationOilTypeRange.Cells[i, 1].Value.ToString();
+                string greaseType = greaseTypeRange.Cells[i, 1].Value.ToString();
+                string volumeLiter = volumeLiterRange.Cells[i, 1].Value.ToString();
+                string volumeGrams = volumeGramsRange.Cells[i, 1].Value.ToString();
 
-                // Check if the value is 1 and the first cell is not empty
-                if (firstCellValue == "55" && !string.IsNullOrEmpty(firstCellValue))
-                {
-                    // Print the row values to the console
-                    for (int i = 1; i <= 10; i++)
-                    {
-                        var cellValue = row.Cells[i].Value?.ToString() ?? "";
-                        cellValue = cellValue.Replace("\n", " ");
-                        Console.Write(cellValue + "\t");
-                    }
-                    Console.WriteLine();
-                }
+                Machine machine = new Machine(interval, weekMonthYear, functionLocation, machineName, coordinates, lubricationPoint, lubricationOilType, greaseType, volumeLiter, volumeGrams);
+                machines.Add(machine);
             }
-
 
             wb.Close();
             excel.Quit();
+
+            return machines;
+        }
+
+        public void SaveList(List<Machine> machines)
+        {
+            FileStream fileStream = new FileStream("tekst.txt", FileMode.OpenOrCreate);
+            StreamWriter streamWriter = new StreamWriter(fileStream);
+
+            foreach (var machine in machines)
+            {
+                streamWriter.WriteLine(machine.ToString());
+            }
+
+            streamWriter.Close();
+            fileStream.Dispose();
         }
 
 

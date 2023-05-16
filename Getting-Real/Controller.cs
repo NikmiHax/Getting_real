@@ -16,10 +16,10 @@ namespace Getting_Real
             Machines = new List<Machine>();
         }
 
-        //public void AddToList(Machine machine)
-        //{
-        //    Machines.Add(machine);
-        //}
+        public void AddToList(Machine machine)
+        {
+            Machines.Add(machine);
+        }
 
         //public void Remove(int machineId)
         //{
@@ -32,14 +32,5 @@ namespace Getting_Real
         //    }
         //}
 
-        //public void Sort()
-        //{
-        //    machines.Sort();
-        //}
-
-        //public void Reverse()
-        //{
-        //    machines.Reverse();
-        //}
     }
 }
