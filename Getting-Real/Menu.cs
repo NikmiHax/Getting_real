@@ -15,7 +15,7 @@ namespace Getting_Real
         public void Show()
         {
 
-
+            // Displays the menu options
             Console.WriteLine("MENU: " +
                               "\nSorter efter koordinater tryk 1: " +
                               "\nSorter efter uge tryk 2: " +
@@ -25,18 +25,24 @@ namespace Getting_Real
                               "\nSorter efter fedt type tryk 6: ");
 
 
+            // Reads the user input from the console
             string inputStr = Console.ReadLine();
             input = int.Parse(inputStr);
 
+            // Executes the corresponding action based on the user input
             switch (input)
             {
                 case 1:
+                    // Sorts machines by coordinates and displays the count of sorted machines
+
                     List<Machine> sortedByCoordinates = sortClass.SortByCoordinates();
                     Console.WriteLine(sortedByCoordinates.Count);
                     sortClass.ShowDataHandlerMenu(sortedByCoordinates);
                     break;
 
                 case 2:
+                    // Sorts machines by week interval and displays the count of sorted machines
+
                     Console.Clear();
 
                     Console.WriteLine("MENU: " +
@@ -54,7 +60,7 @@ namespace Getting_Real
                         sortedByWeek = sortClass.SortByWeek().Where(machine => machine.Interval == inputIntervalWeek).ToList();
 
                     }
-
+                    // Displays the sorted machines and their count
                     foreach (var machine in sortedByWeek)
                     {
                         Console.WriteLine(machine.ToString());
@@ -65,6 +71,7 @@ namespace Getting_Real
                     break;
 
                 case 3:
+                    // Sorts machines by month interval and displays the count of sorted machines
                     Console.Clear();
 
                     Console.WriteLine("MENU: " +
@@ -82,7 +89,7 @@ namespace Getting_Real
                         sortedByMonth = sortClass.SortByMonth().Where(machine => machine.Interval == inputIntervalMonth).ToList();
 
                     }
-
+                    // Displays the sorted machines and their count
                     foreach (var machine in sortedByMonth)
                     {
                         Console.WriteLine(machine.ToString());
@@ -93,6 +100,7 @@ namespace Getting_Real
                     break;
 
                 case 4:
+                    // Sorts machines by year interval and displays the count of sorted machines
                     Console.Clear();
 
                     Console.WriteLine("MENU: " +
@@ -121,18 +129,22 @@ namespace Getting_Real
                     break;
 
                 case 5:
+                    // Sorts machines by lubricant oil type and displays the count of sorted machines
                     List<Machine> sortedByLubricantOils = sortClass.SortByLubricantOils();
                     Console.WriteLine(sortedByLubricantOils.Count);
                     sortClass.ShowDataHandlerMenu(sortedByLubricantOils);
                     break;
 
                 case 6:
+                    // Sorts machines by grease type and displays the count of sorted machines
                     List<Machine> sortedByGreases = sortClass.SortByGreases();
                     Console.WriteLine(sortedByGreases.Count);
                     sortClass.ShowDataHandlerMenu(sortedByGreases);
                     break;
 
                 default:
+                    // Handles invalid input
+
                     Console.WriteLine("Invalid input");
                     break;
             }
