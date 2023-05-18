@@ -16,7 +16,9 @@ namespace Getting_Real
         public List<Machine> readExcel()
         {
             // Specifies the file path of the Excel file to be read
-            string filePath = "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\Getting-Real\\DelAfRAP-000478simplificeretA(134).xlsx";
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string relativeFilePath = "DelAfRAP-000478simplificeretA(134).xlsx";
+            string filePath = Path.Combine(baseDirectory, relativeFilePath);
             
             // Creates an instance of the Excel application
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
