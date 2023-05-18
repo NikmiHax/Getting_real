@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {}
+    "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
+    "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
+        "projectUniqueName": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
         "projectName": "Getting Real",
-        "projectPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
+        "projectPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
         "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\obj\\",
+        "outputPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",

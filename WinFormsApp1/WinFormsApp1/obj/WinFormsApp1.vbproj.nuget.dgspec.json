@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msn\\Source\\Repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj": {}
+    "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
+    "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
+        "projectUniqueName": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
         "projectName": "Getting Real",
-        "projectPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
+        "projectPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj",
         "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\obj\\",
+        "outputPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,12 +65,12 @@
         }
       }
     },
-    "C:\\Users\\msn\\Source\\Repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj": {
+    "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+        "projectUniqueName": "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+        "projectPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
         "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
@@ -89,8 +89,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
-                "projectPath": "C:\\Users\\msn\\Source\\Repos\\Getting_real\\Getting-Real\\Getting Real.csproj"
+              "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
+                "projectPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj"
               }
             }
           }
