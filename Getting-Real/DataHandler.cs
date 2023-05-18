@@ -16,7 +16,7 @@ namespace Getting_Real
         public List<Machine> readExcel()
         {
             // Specifies the file path of the Excel file to be read
-            string filePath = "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\DelAfRAP-000478simplificeretA(134).xlsx";
+            string filePath = "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\Getting-Real\\DelAfRAP-000478simplificeretA(134).xlsx";
             
             // Creates an instance of the Excel application
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
@@ -47,16 +47,16 @@ namespace Getting_Real
             for (int i = 1; i <= intervalRange.Count; i++)
             {
                 // Retrieves values from each column in the current row
-                string interval = intervalRange.Cells[i, 1].Value.ToString();
-                string weekMonthYear = weekMonthYearRange.Cells[i, 1].Value.ToString();
-                string functionLocation = functionLocationRange.Cells[i, 1].Value.ToString();
-                string machineName = machineNameRange.Cells[i, 1].Value.ToString();
-                string coordinates = coordinatesRange.Cells[i, 1].Value.ToString();
-                string lubricationPoint = lubricationPointRange.Cells[i, 1].Value.ToString();
-                string lubricationOilType = lubricationOilTypeRange.Cells[i, 1].Value.ToString();
-                string greaseType = greaseTypeRange.Cells[i, 1].Value.ToString();
-                string volumeLiter = volumeLiterRange.Cells[i, 1].Value.ToString();
-                string volumeGrams = volumeGramsRange.Cells[i, 1].Value.ToString();
+                string interval = intervalRange.Cells[i, 1].Value?.ToString();
+                string weekMonthYear = weekMonthYearRange.Cells[i, 1].Value?.ToString();
+                string functionLocation = functionLocationRange.Cells[i, 1].Value?.ToString();
+                string machineName = machineNameRange.Cells[i, 1].Value?.ToString();
+                string coordinates = coordinatesRange.Cells[i, 1].Value?.ToString();
+                string lubricationPoint = lubricationPointRange.Cells[i, 1].Value?.ToString();
+                string lubricationOilType = lubricationOilTypeRange.Cells[i, 1].Value?.ToString();
+                string greaseType = greaseTypeRange.Cells[i, 1].Value?.ToString();
+                string volumeLiter = volumeLiterRange.Cells[i, 1].Value?.ToString();
+                string volumeGrams = volumeGramsRange.Cells[i, 1].Value?.ToString();
 
                 // Creates a Machine object with the retrieved values and adds it to the machines list
                 Machine machine = new Machine(interval, weekMonthYear, functionLocation, machineName, coordinates, lubricationPoint, lubricationOilType, greaseType, volumeLiter, volumeGrams);

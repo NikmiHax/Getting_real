@@ -1,0 +1,40 @@
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Getting Real.deps.json
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Getting Real.runtimeconfig.json
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Getting Real.exe
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\WinFormsApp1.exe
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\WinFormsApp1.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\WinFormsApp1.pdb
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\EPPlus.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\EPPlus.Interfaces.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\EPPlus.System.Drawing.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Getting Real.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\Getting Real.pdb
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.Form2.resources
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.Form3.resources
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.Resources.resources
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.AssemblyInfo.vb
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.vbproj.CopyComplete
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.pdb
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Ervin\Desktop\test repository 5\Getting_real\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows\ref\WinFormsApp1.dll

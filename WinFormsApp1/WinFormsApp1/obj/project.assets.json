@@ -946,19 +946,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\msn\\.nuget\\packages\\": {}
+    "C:\\Users\\Ervin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+      "projectUniqueName": "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
-      "packagesPath": "C:\\Users\\msn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.vbproj",
+      "packagesPath": "C:\\Users\\Ervin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\msn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ervin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -972,8 +972,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj": {
-              "projectPath": "C:\\Users\\msn\\source\\repos\\Getting_real\\Getting-Real\\Getting Real.csproj"
+            "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\Getting-Real\\Getting Real.csproj": {
+              "projectPath": "C:\\Users\\Ervin\\Desktop\\test repository 5\\Getting_real\\Getting-Real\\Getting Real.csproj"
             }
           }
         }
@@ -1006,7 +1006,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
