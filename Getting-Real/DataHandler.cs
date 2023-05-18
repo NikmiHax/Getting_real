@@ -13,52 +13,23 @@ namespace Getting_Real
 {
     public class DataHandler
     {
-        //public void LoadList()
-        //{
-        //    FileStream fileStream = new FileStream("C:\\Users\\Ervin\\Documents\\side projects\\Getting Real master\\Getting-Real-master\\DelAfRAP-000478simplificeretA(134).csv", FileMode.Open);
-        //    StreamReader streamReader = new StreamReader(fileStream);
-
-        //    string line;
-        //    while ((line = streamReader.ReadLine()) != null)
-        //    {
-        //        Console.WriteLine(line);
-        //    }
-        //    streamReader.Close();
-        //    fileStream.Close();
-        //}
-
-        //public void LoadList1()
-        //{
-        //    using (StreamReader sr = new StreamReader(@"C:\Users\Ervin\Documents\side projects\Getting Real master\Getting-Real-master\DelAfRAP-000478simplificeretA(134).csv"))
-        //    {
-        //        string line;
-        //        string[] columns = null;
-        //        while ((line = sr.ReadLine()) != null)
-        //        {
-        //            columns = line.Split(';');
-        //            //now columns array has a ll data of column in a row!
-        //            //like:
-        //            string col1 = columns[0]; //and so on..
-        //            string col2 = columns[1];
-        //            string col3 = columns[2];
-        //            string col4 = columns[3];
-
-        //            Console.WriteLine(col3);
-
-        //        }
-        //    }
-        //}
-
-        public List<Machine> readExcel()
+        public List<Machine> ReadExcel()
         {
-            string filePath = "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\DelAfRAP-000478simplificeretA(134)1.xlsx";
+            // Specify the file path of the Excel file to be read
+            string filePath =
+                "C:\\Users\\Ervin\\Desktop\\test repository\\Getting-real\\DelAfRAP-000478simplificeretA(134)1.xlsx";
+
+            // Create an instance of the Excel application
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
+
             Workbook wb;
             Worksheet ws;
 
+            // Open the Excel file and select the first worksheet
             wb = excel.Workbooks.Open(filePath);
             ws = wb.Worksheets[1];
 
+            // Define the ranges of different columns in the worksheet
             Microsoft.Office.Interop.Excel.Range intervalRange = ws.Range["A2:A888"];
             Microsoft.Office.Interop.Excel.Range weekMonthYearRange = ws.Range["B2:B888"];
             Microsoft.Office.Interop.Excel.Range functionLocationRange = ws.Range["C2:C888"];
@@ -72,8 +43,10 @@ namespace Getting_Real
 
             List<Machine> machines = new List<Machine>();
 
+            // Loop through each row in the worksheet
             for (int i = 1; i <= intervalRange.Count; i++)
             {
+                // Read the values from each column in the current row
                 string interval = intervalRange.Cells[i, 1].Value.ToString();
                 string weekMonthYear = weekMonthYearRange.Cells[i, 1].Value.ToString();
                 string functionLocation = functionLocationRange.Cells[i, 1].Value.ToString();
@@ -85,30 +58,36 @@ namespace Getting_Real
                 string volumeLiter = volumeLiterRange.Cells[i, 1].Value.ToString();
                 string volumeGrams = volumeGramsRange.Cells[i, 1].Value.ToString();
 
-                Machine machine = new Machine(interval, weekMonthYear, functionLocation, machineName, coordinates, lubricationPoint, lubricationOilType, greaseType, volumeLiter, volumeGrams);
+                // Create a new Machine object with the read values and add it to the list
+                Machine machine = new Machine(interval, weekMonthYear, functionLocation, machineName, coordinates,
+                    lubricationPoint, lubricationOilType, greaseType, volumeLiter, volumeGrams);
                 machines.Add(machine);
             }
 
+            // Close the workbook and quit the Excel application
             wb.Close();
             excel.Quit();
 
+            // Return the list of machines
             return machines;
         }
 
         public void SaveList(List<Machine> machines)
         {
+            // Create a file stream to write to a file called "tekst.txt"
             FileStream fileStream = new FileStream("tekst.txt", FileMode.OpenOrCreate);
             StreamWriter streamWriter = new StreamWriter(fileStream);
 
+            // Write each machine's string representation to the file
             foreach (var machine in machines)
             {
                 streamWriter.WriteLine(machine.ToString());
-            }
 
-            streamWriter.Close();
-            fileStream.Dispose();
+                // Close the stream writer and release the file
+
+            }
         }
 
-
     }
+
 }
